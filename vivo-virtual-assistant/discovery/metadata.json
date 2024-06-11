@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "tenant": "CIB",
+        "data_source": "ContentManager",
+        "type": "Actua",
+        "sub_type": "Nieuws",
+        "source_id": "87b2582a-ac4e-4776-b304-c59ea7e6e7db",
+        "is_public": true,
+        "title": "Afkoeling in de vastgoedmarkt",
+        "date": "2022-11-24T12:40:52.635Z",
+        "categories": "Communicatie, Overige/algemeen",
+        "domains": "Beheer, Antiwitwas, Bemiddeling, Verkoop",
+        "language": "NL",
+        "for_students": false,
+        "status": "Active",
+        "data_type": "pdf",
+        "page": 2
+    },
+    "tenant": "filterable",
+    "data_source": "filterable",
+    "type": "filterable",
+    "sub_type": "filterable",
+    "is_public": "filterable",
+    "categories": "filterable",
+    "domains": "filterable",
+    "language": "filterable",
+    "for_students": "filterable",
+    "status": "filterable",
+    "date": "sortable, filterable"
+}
