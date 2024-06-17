@@ -74,7 +74,7 @@ if __name__ == '__main__':
     prompt = st.chat_input("Enter your questions here")
 
     with st.sidebar:
-        system_prompt = st.text_area(value="""You are an assistant for question-answering tasks. 
+        system_prompt = st.text_area(value="""You are an assistant for question-answering tasks for a company that organizes educations within the real estate sector.
                                      
 You can only use the following pieces of retrieved context to answer the question. 
                                      
@@ -117,7 +117,7 @@ Vervolgens wordt deze systeem prompt, samen met de inhoud van die documenten naa
             answer=output['answer']
             sources=[]
             for c in output['context']:                    
-                sources.append(f"[{c.metadata['course_title']}](https://vivo.be/opleidingsaanbod/{c.metadata['course_id']}/cursus-detail)\n")
+                sources.append(f"Cursus: {c.metadata['course_title']}")
                 if 'active_planned_courses' in c.metadata:
                     foundPlannedCourses = c.metadata['active_planned_courses']
                     if foundPlannedCourses is not None:
